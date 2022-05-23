@@ -1,2 +1,2 @@
 #!/bin/bash
-chown group hello
+chown user:group helloi
