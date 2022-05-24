@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir --mode| ug+rwx my_dir 
+mkdir -m 751
