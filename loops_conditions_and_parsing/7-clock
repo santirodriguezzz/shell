@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Clock
+
+HOUR=0
+MIN=1
+
+while [ $HOUR -le 12]
+do
+       printf "%s\n" "Hour: $HOUR"
+((HOUR++))
+while [ $MIN -le 59 ]
+do 
+        printf "%s\n" "$MIN"
+        ((MIN++))
+done
+if [[ $MIN -eq 60]]
+then
+    MIN=1
+fi
+done
