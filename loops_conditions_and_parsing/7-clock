@@ -15,7 +15,7 @@ do
         ((MIN++))
 done
 
-if [[ $MIN -eq 60]]
+if [[ $MIN -eq 60 ]]
 then
     MIN=1
 fi
