@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#To file, or not to file
+
+file="./school"
+
+if [[ -e $file]]
+then
+       printf "%s\n" "school file exists"
+
+     if [[ -s $file ]]
+then
+        printf "%s\n" "school file is not empty"
+else
+        printf "%s\n" "school file is empty"
+fi
+
+if [[ -f $$file ]]
+then
+        printf "%s\n" "school is a regular file"
+
+fi
+else
+        printf "%s\n" "school file doe not exist"
+fi
