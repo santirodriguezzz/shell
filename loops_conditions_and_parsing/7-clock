@@ -4,11 +4,11 @@
 HOUR=0
 MIN=1
 
-while [ $HOUR -le 12]
+while [ $HOUR -le 12 ]
 do
        printf "%s\n" "Hour: $HOUR"
        ((HOUR++))
-       
+
 while [ $MIN -le 59 ]
 do
         printf "%s\n" "$MIN"
