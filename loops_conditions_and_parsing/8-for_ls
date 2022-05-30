@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#For ls
+
+LIST=$(find . -type f -printf "%f\n" | cut -d "-" -f 2)
+
+for FILE in $LIST
+do
+     printf "%s\n" "$FILE"
+done
