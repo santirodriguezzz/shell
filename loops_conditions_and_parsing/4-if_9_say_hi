@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 #If 9, say Hi!
-while [ $i -le 10]
+n=1
+while [ $n -le 10 ]
 do
-     echo "Best School";
-        if [ $i -eq 9 ]; then
-                  echo "Hi"
-                         fi
-          ((i++))
+      printf "%s\n" "Best School"
+      ((n++))
+      if [[ $n -eq 10]]
+      then
+	      printf "%s\n" "Hi"
+      fi
 done
