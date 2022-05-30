@@ -1,5 +1,5 @@
 n=1
-
+#bad luck, 8 is your chance
 while [[ $n -le 10 ]]
 do
 if [[ $n -eq 4 ]]
