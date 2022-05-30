@@ -9,7 +9,7 @@ then
        ((n++))
 elif [[ $n -eq 8 ]]
 then
-  printf "%s\n" "god luck"
+  printf "%s\n" "good luck"
   ((n++))
 else
 printf "%s\n" "Best School"
