@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#Superstitious numbers
+
+COUNTER=1
+while [ $COUNTER -le 20 ]
+do
+       case $COUNTER in 
+             [4])
+                 printf "%s\n" "$COUNTER"
+                 printf "%s\n" "bad luck from China"
+                 ((COUNTER++));;
+               9)
+                 printf "%s\n" "$COUNTER"
+                 printf "%s\n" "bad luck from Japan"
+                ((COUNTER++))
+              ;;
+              17)
+                 printf "%s\n" "$COUNTER"
+                 printf "%s\n" "bad luck from Italy"
+               ((COUNTER++))
+                 ;;
+           *) 
+                printf "%s\n" "$COUNTER"
+              ((COUNTER))
+                 ;;
+   esac
+done
