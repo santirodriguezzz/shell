@@ -1,5 +1,6 @@
-n=1
+#!/usr/bin/env bash
 #bad luck, 8 is your chance
+n=1
 while [[ $n -le 10 ]]
 do
 if [[ $n -eq 4 ]]
