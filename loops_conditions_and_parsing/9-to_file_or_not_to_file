@@ -19,5 +19,5 @@ then
 	        printf "%s\n" "school is a regular file"
         fi
 else
-        printf "%s\n" "school file doe not exist"
+        printf "%s\n" "school file does not exist"
 fi
