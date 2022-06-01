@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#Beheaded process
-kill  "$( pgrep -f 7-highlander )"
+#Beheaded 
+pkill -9 -f "7-highlander"
