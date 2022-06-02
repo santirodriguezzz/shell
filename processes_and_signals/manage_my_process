@@ -3,6 +3,6 @@
 
 while :
 do
-	echo  "I am alive!" >> /tmp/my_process
+	printf "%s\n" "I am alive!"
 	sleep 2
 done
